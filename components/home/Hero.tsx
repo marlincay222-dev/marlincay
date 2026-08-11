@@ -36,7 +36,7 @@ export default function Hero() {
             <p className="text-gold text-[11px] md:text-[13px] uppercase tracking-[0.25em] mb-6">
               Marlin Cay
             </p>
-            <h1 className="text-white font-serif text-5xl md:text-7xl lg:text-[90px] leading-[1.05] mb-8">
+            <h1 className="text-white font-serif text-4xl sm:text-5xl md:text-7xl lg:text-[90px] leading-[1.1] mb-8 hyphens-auto break-words">
               VISAKHAPATNAM'S ONLY <br />
               SEA VIEW DINING.
             </h1>
