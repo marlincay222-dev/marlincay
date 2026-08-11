@@ -90,8 +90,10 @@ export default function DiningPage() {
                     {venue.description}
                   </p>
                   
-                  <Link href="/dining/menu">
-                    <Button variant="outline">EXPLORE MENU &rarr;</Button>
+                  <Link href="/menu">
+                    <Button className="bg-charcoal text-white hover:bg-gold hover:text-white px-8 py-6 rounded-none tracking-widest text-xs uppercase group transition-all duration-300 w-full sm:w-auto border-none">
+                      VIEW FULL MENU
+                    </Button>
                   </Link>
                 </motion.div>
               </div>
