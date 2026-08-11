@@ -103,9 +103,9 @@ export default function CoffeeShop() {
       </div>
 
       {/* 3. Image Strip */}
-      <div className="w-full mt-32 md:mt-48 overflow-hidden relative">
+      <div className="w-full mt-32 md:mt-48 relative">
         <motion.div 
-          className="flex gap-4 md:gap-8 px-4 md:px-12 w-max"
+          className="flex gap-4 md:gap-8 px-4 md:px-12 w-full overflow-x-auto snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -113,28 +113,28 @@ export default function CoffeeShop() {
         >
           {/* Image 1: Close up */}
           <div 
-            className="relative w-[60vw] md:w-[400px] aspect-square rounded-2xl overflow-hidden cursor-pointer"
+            className="shrink-0 snap-center relative w-[75vw] md:w-[400px] aspect-square rounded-2xl overflow-hidden cursor-pointer"
             onClick={() => openLightbox("/images/coffee-1.png")}
           >
             <Image src="/images/coffee-1.png" alt="Coffee Details" fill className="object-cover" />
           </div>
           {/* Image 2: Atmosphere */}
           <div 
-            className="relative w-[80vw] md:w-[600px] aspect-[16/9] rounded-2xl overflow-hidden cursor-pointer"
+            className="shrink-0 snap-center relative w-[85vw] md:w-[600px] aspect-[16/9] rounded-2xl overflow-hidden cursor-pointer"
             onClick={() => openLightbox("/images/coffee-2.png")}
           >
             <Image src="/images/coffee-2.png" alt="Café Atmosphere" fill className="object-cover" />
           </div>
           {/* Image 3: Seating */}
           <div 
-            className="relative w-[50vw] md:w-[350px] aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
+            className="shrink-0 snap-center relative w-[65vw] md:w-[350px] aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
             onClick={() => openLightbox("/images/coffee-3.png")}
           >
             <Image src="/images/coffee-3.png" alt="Ocean Seating" fill className="object-cover" />
           </div>
           {/* Image 4: Evening */}
           <div 
-            className="relative w-[70vw] md:w-[500px] aspect-[3/2] rounded-2xl overflow-hidden cursor-pointer"
+            className="shrink-0 snap-center relative w-[80vw] md:w-[500px] aspect-[3/2] rounded-2xl overflow-hidden cursor-pointer mr-4 md:mr-12"
             onClick={() => openLightbox("/images/placeholders/coffee-4.jpg")}
           >
             <Image src="/images/placeholders/coffee-4.jpg" alt="Evening Atmosphere" fill className="object-cover" />

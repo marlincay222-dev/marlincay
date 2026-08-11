@@ -42,9 +42,13 @@ export default function Experience() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
               <Link
-                href={exp.link}
+                href={exp.id === "celebrate" ? "#" : exp.link}
+                onClick={(e) => {
+                  if (exp.id === "celebrate") e.preventDefault();
+                }}
                 className={cn(
-                  "flex flex-col md:flex-row items-center gap-12 md:gap-24 group cursor-pointer",
+                  "flex flex-col md:flex-row items-center gap-12 md:gap-24 group",
+                  exp.id !== "celebrate" ? "cursor-pointer" : "cursor-default",
                   index % 2 !== 0 && "md:flex-row-reverse"
                 )}
               >
@@ -52,7 +56,9 @@ export default function Experience() {
                   className="w-full md:w-[60%] overflow-hidden relative aspect-[4/3] md:aspect-[5/4] rounded-2xl"
                   onClick={(e) => {
                     e.preventDefault();
-                    openLightbox(exp.image);
+                    if (exp.id !== "celebrate") {
+                      openLightbox(exp.image);
+                    }
                   }}
                 >
                   <Image

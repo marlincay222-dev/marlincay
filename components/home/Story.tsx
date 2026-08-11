@@ -37,7 +37,9 @@ export default function Story() {
               THE STORY BEHIND MCOFFEE
             </h3>
             <p className="text-charcoal/70 text-lg mb-8 font-light uppercase tracking-widest text-[13px]">
-              Dhanya Chinnam
+              <span className="font-medium text-charcoal">Dhanya Chinnam</span> 
+              <span className="mx-2 opacity-50">&middot;</span> 
+              <span className="text-gold">Director of Operations</span>
             </p>
             
             <div className="flex flex-col gap-6 text-charcoal/80 font-light text-lg md:text-xl leading-relaxed max-w-2xl">

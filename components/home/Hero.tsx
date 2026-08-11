@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-[100svh] overflow-hidden bg-charcoal">
       <motion.div 
-        className="absolute inset-0 z-0"
+        className="absolute inset-x-0 bottom-0 top-24 md:inset-0 z-0"
         initial={{ opacity: 0, scale: 1.05 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 2.5, ease: "easeOut", delay: 1.5 }}
