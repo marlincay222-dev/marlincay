@@ -34,7 +34,7 @@ export default function Hero() {
             transition={{ duration: 1.2, ease: "easeOut", delay: 2.2 }}
           >
             <p className="text-gold text-[11px] md:text-[13px] uppercase tracking-[0.25em] mb-6">
-              Marlin Cay
+              Marlin Cay &middot; An APTDC Project
             </p>
             <h1 className="text-white font-serif text-4xl sm:text-5xl md:text-7xl lg:text-[90px] leading-[1.1] mb-8 hyphens-auto break-words">
               VISAKHAPATNAM'S ONLY <br />
