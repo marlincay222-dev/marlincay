@@ -20,10 +20,10 @@ export default function Hero() {
           alt="Marlin Cay"
           fill
           priority
-          className="object-cover"
+          className="object-contain md:object-cover object-top md:object-center"
         />
         {/* Subtle dark overlay for text readability */}
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-black/30 md:bg-black/30" />
       </motion.div>
 
       <div className="relative z-10 h-full container mx-auto px-6 md:px-12 flex flex-col justify-end pb-24 md:pb-32">
