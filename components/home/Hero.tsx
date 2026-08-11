@@ -41,14 +41,10 @@ export default function Hero() {
               SEA VIEW DINING.
             </h1>
             <p className="text-white/80 text-[11px] md:text-[13px] uppercase tracking-[0.2em] mb-12">
-              Bheemili &middot; Visakhapatnam
+              Visakhapatnam
             </p>
             
-            <Link href="/about">
-              <Button variant="outline" className="border-white/50 text-white hover:bg-white hover:text-charcoal hover:border-white">
-                DISCOVER MARLIN CAY &rarr;
-              </Button>
-            </Link>
+
           </motion.div>
         </div>
       </div>
@@ -89,7 +85,7 @@ export default function Hero() {
           animate={{ opacity: 1, filter: "blur(0px)" }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          BEACH AND RESORTS | AN APTDC PROJECT
+          BEACH RESORT | AN APTDC PROJECT
         </motion.p>
       </motion.div>
     </section>

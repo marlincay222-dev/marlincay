@@ -1,9 +1,9 @@
 export const localDiscovery = [
   {
     id: "bheemili-beach",
-    title: "Bheemili Beach & Dutch Settlement",
+    title: "The Beach & Dutch Settlement",
     distance: "On Property",
-    description: "Step straight from Marlin Cay onto the pristine sands of Bheemili. As one of the oldest Dutch settlements in India, the area is rich with 17th-century heritage, including the old cemetery and lighthouse. A perfect blend of history and coastal tranquility.",
+    description: "Step straight from Marlin Cay onto the pristine sands of the beach. As one of the oldest Dutch settlements in India, the area is rich with 17th-century heritage, including the old cemetery and lighthouse. A perfect blend of history and coastal tranquility.",
     image: "/images/local-discovery/bheemili.jpg"
   },
   {

@@ -22,7 +22,7 @@ export default function Introduction() {
             </h2>
             <div className="w-[1px] h-20 bg-gold/50 mx-auto mb-12" />
             <p className="text-charcoal/70 text-[17px] md:text-[19px] font-light leading-relaxed max-w-2xl mx-auto">
-              Set along the shores of Bheemili, Marlin Cay brings together the beauty of the coast, refined hospitality and unforgettable celebrations.
+              Set along the shores of Visakhapatnam, Marlin Cay brings together the beauty of the coast, refined hospitality and unforgettable celebrations.
             </p>
           </motion.div>
         </div>

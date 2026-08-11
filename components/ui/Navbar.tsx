@@ -21,7 +21,9 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks: { name: string, href: string }[] = [];
+  const navLinks = [
+    { name: "Contact", href: "/contact" }
+  ];
 
   // When mobile menu is open, prevent body scroll
   useEffect(() => {
@@ -68,7 +70,7 @@ export default function Navbar() {
                 "text-[9px] md:text-[11px] uppercase tracking-[0.3em] font-light mt-1",
                 isScrolled || isMobileMenuOpen ? "text-charcoal/70" : "text-white/80"
               )}>
-                BEACH AND RESORTS
+                BEACH RESORT
               </span>
             </div>
           </Link>

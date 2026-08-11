@@ -165,11 +165,7 @@ export default function CoffeeShop() {
             YOUR MOMENT. <br />
             YOUR VIEW.
           </h2>
-          <Link href="/coffee-shop">
-            <Button variant="outline" className="border-gold text-charcoal hover:bg-gold hover:text-white hover:border-gold">
-              VISIT THE COFFEE SHOP &rarr;
-            </Button>
-          </Link>
+
         </motion.div>
       </div>
     </section>

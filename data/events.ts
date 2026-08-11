@@ -20,7 +20,7 @@ export const events = [
   {
     id: "pre-wedding",
     title: "Pre-Wedding",
-    description: "Capture your love story against the stunning backdrop of the Bheemili coast.",
+    description: "Capture your love story against the stunning backdrop of the coast.",
     image: "/images/placeholders/event-4.jpg",
   }
 ];

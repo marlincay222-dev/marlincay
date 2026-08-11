@@ -22,7 +22,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "Marlin Cay Beach Resorts | Luxury Beach Resort in Visakhapatnam",
-  description: "Experience Marlin Cay, a premium coastal destination in Bheemili, Visakhapatnam, where the sea becomes the backdrop for stays, dining and unforgettable celebrations.",
+  description: "Experience Marlin Cay, a premium coastal destination in Visakhapatnam, where the sea becomes the backdrop for stays, dining and unforgettable celebrations.",
 };
 
 export default function RootLayout({

@@ -61,7 +61,7 @@ export default function AboutPage() {
               </h2>
               <div className="w-[1px] h-24 bg-gold/50 mx-auto mb-12" />
               <p className="text-charcoal/70 text-lg md:text-xl font-light leading-relaxed">
-                Marlin Cay was born from a desire to redefine luxury hospitality along the eastern seaboard of India. Nestled on the pristine shores of Bheemili, Visakhapatnam, we offer more than just a destination—we offer an escape. Every detail, from the architecture that honors the natural landscape to our world-class dining, has been meticulously crafted to cultivate moments of genuine connection and celebration.
+                Marlin Cay was born from a desire to redefine luxury hospitality along the eastern seaboard of India. Nestled on the pristine shores of Visakhapatnam, we offer more than just a destination—we offer an escape. Every detail, from the architecture that honors the natural landscape to our world-class dining, has been meticulously crafted to cultivate moments of genuine connection and celebration.
               </p>
             </motion.div>
           </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
             >
               <Image
                 src="/images/placeholders/hero-experiences.jpg"
-                alt="Bheemili Coast"
+                alt="The Coast"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover transition-transform duration-[2s] hover:scale-105"
@@ -96,9 +96,9 @@ export default function AboutPage() {
               transition={{ duration: 1, delay: 0.2 }}
             >
               <p className="text-[11px] uppercase tracking-[0.2em] text-gold mb-6">The Location</p>
-              <h3 className="font-serif text-5xl md:text-6xl text-charcoal mb-8">BHEEMILI.</h3>
+              <h3 className="font-serif text-5xl md:text-6xl text-charcoal mb-8">THE COAST.</h3>
               <p className="text-charcoal/70 font-light text-lg md:text-xl leading-relaxed mb-10">
-                Steeped in history and framed by the Bay of Bengal, Bheemili is a place of untouched beauty. The rhythm of the waves and the golden sands provide a canvas for the Marlin Cay experience. Whether you're here to celebrate life's biggest milestones or simply to find quiet luxury, the coast welcomes you.
+                Steeped in history and framed by the Bay of Bengal, the coast is a place of untouched beauty. The rhythm of the waves and the golden sands provide a canvas for the Marlin Cay experience. Whether you're here to celebrate life's biggest milestones or simply to find quiet luxury, the coast welcomes you.
               </p>
               
               <Link href="/gallery">

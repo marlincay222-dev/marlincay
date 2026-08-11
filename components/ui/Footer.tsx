@@ -4,11 +4,6 @@ import { siteConfig } from "@/data/site";
 
 export default function Footer() {
   const navLinks = [
-    { name: "ABOUT", href: "/about" },
-    { name: "DINING", href: "/dining" },
-    { name: "EVENTS", href: "/events" },
-    { name: "EXPERIENCES", href: "/experiences" },
-    { name: "GALLERY", href: "/gallery" },
     { name: "CONTACT", href: "/contact" },
   ];
 

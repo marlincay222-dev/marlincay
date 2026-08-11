@@ -20,7 +20,7 @@ export const experiences = [
   {
     id: "local-discovery",
     title: "Local Discovery",
-    description: "Explore the rich heritage and hidden gems of Bheemili.",
+    description: "Explore the rich heritage and hidden gems of Visakhapatnam.",
     image: "/images/placeholders/experience-4.jpg"
   }
 ];

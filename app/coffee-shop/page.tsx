@@ -61,7 +61,7 @@ export default function CoffeeShopPage() {
               </h2>
               <div className="w-[1px] h-24 bg-gold/50 mx-auto mb-12" />
               <p className="text-charcoal/70 text-lg md:text-xl font-light leading-relaxed">
-                The Marlin Cay Coffee Shop is a coastal sanctuary designed for those who appreciate the art of slow living. Situated right on the Bheemili coast, our café offers a curated selection of premium blends in an environment that feels both luxurious and entirely relaxed. 
+                The Marlin Cay Coffee Shop is a coastal sanctuary designed for those who appreciate the art of slow living. Situated right on the coast, our café offers a curated selection of premium blends in an environment that feels both luxurious and entirely relaxed. 
               </p>
             </motion.div>
           </div>
@@ -182,7 +182,7 @@ export default function CoffeeShopPage() {
           >
             <p className="text-gold text-[11px] uppercase tracking-[0.25em] mb-6">Visit Us</p>
             <h2 className="font-serif text-5xl md:text-7xl text-charcoal leading-[1.05] mb-8">
-              BHEEMILI, <br className="hidden md:block" /> VISAKHAPATNAM.
+              VISAKHAPATNAM.
             </h2>
             <p className="text-charcoal/70 font-light text-lg mb-16 max-w-xl mx-auto">
               Join us at the Marlin Cay Coffee Shop for an unparalleled coastal café experience.
