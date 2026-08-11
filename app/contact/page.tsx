@@ -74,11 +74,7 @@ export default function ContactPage() {
                   <p className="text-charcoal/80 font-light mt-2 max-w-xs leading-relaxed">{siteConfig.location}</p>
                 </div>
                 
-                <div>
-                  <h3 className="text-[11px] uppercase tracking-[0.2em] text-charcoal/60 mb-4">Contact</h3>
-                  <p className="font-light text-charcoal/80 hover:text-gold transition-colors block mb-2 cursor-pointer">{siteConfig.contact.email}</p>
-                  <p className="font-light text-charcoal/80 hover:text-gold transition-colors block cursor-pointer">{siteConfig.contact.phone}</p>
-                </div>
+
               </div>
             </motion.div>
           </div>
