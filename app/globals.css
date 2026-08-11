@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #125B71;
+  --color-charcoal: #125B71;
+  --color-gold: #B89445;
+  --color-champagne: #D4AF6A;
+  --color-light: #F7F6F3;
+  --color-border-gold: rgba(184, 148, 69, 0.25);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-charcoal: var(--color-charcoal);
+  --color-gold: var(--color-gold);
+  --color-champagne: var(--color-champagne);
+  --color-light: var(--color-light);
+  --color-border-gold: var(--color-border-gold);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Keeping light mode aesthetics as default for the luxury brand */
+  :root {
+    --background: #ffffff;
+    --foreground: #125B71;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Lenis Scroll Smoothness */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
